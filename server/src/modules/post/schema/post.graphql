@@ -1,0 +1,6 @@
+type Post @entity {
+  id: ID @id
+  title: String @column
+  content: String @column
+  author: User @link @map(path: "userId")
+}

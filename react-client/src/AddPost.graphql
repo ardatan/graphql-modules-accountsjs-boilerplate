@@ -1,0 +1,7 @@
+mutation AddPost($title: String, $content: String) {
+    addPost(title: $title, content: $content) {
+        id
+        title
+        content
+    }
+}

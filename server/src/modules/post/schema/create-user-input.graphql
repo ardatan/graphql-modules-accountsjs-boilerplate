@@ -1,0 +1,7 @@
+input CreateUserInput {
+  profile: CreateUserProfileInput!
+}
+
+input CreateUserProfileInput {
+  pictureUrl: String
+}

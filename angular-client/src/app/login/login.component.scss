@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-direction: column;
+  mat-card {
+    margin: auto;
+    max-width: 400px;
+  }
+  * {
+    width: 100%;
+  }
+}

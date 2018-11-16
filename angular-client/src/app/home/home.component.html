@@ -1,0 +1,32 @@
+<form class="mat-typography">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Add Post</mat-card-title>
+        <mat-card-subtitle>
+          <mat-error>{{error}}</mat-error>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput name="title" placeholder="Title" [(ngModel)]="newPost.title">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput name="content" placeholder="Content" [(ngModel)]="newPost.content">
+        </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="addPost()">Add Post</button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+
+<mat-list>
+  <h3 mat-subheader>Posts</h3>
+  <mat-list-item *ngFor="let post of (data | async)?.allPosts">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h4 mat-line>{{post.title}}</h4>
+    <p mat-line> {{post.content}} </p>
+    <p mat-line> Author: {{post.author.username}} </p>
+  </mat-list-item>
+</mat-list>

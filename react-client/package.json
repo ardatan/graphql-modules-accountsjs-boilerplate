@@ -9,7 +9,7 @@
     "@material-ui/core": "^3.5.1",
     "@types/graphql": "^14.0.3",
     "@types/jest": "23.3.9",
-    "@types/node": "10.12.8",
+    "@types/node": "10.12.9",
     "@types/react": "16.7.6",
     "@types/react-dom": "16.0.9",
     "@types/react-router-dom": "^4.3.1",

@@ -1877,10 +1877,10 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-graphql-code-generator@0.14.0-alpha.d97d93cd:
-  version "0.14.0-alpha.d97d93cd"
-  resolved "https://registry.yarnpkg.com/graphql-code-generator/-/graphql-code-generator-0.14.0-alpha.d97d93cd.tgz#80097369f5f2ea855b6c5f72b44d64e642618b9e"
-  integrity sha512-vGAMXl5ziill4EL0GzcWJYLf7SSjPSH7H0QyyqG55tYIqEeb0Dcs9A5fnYpYS/FxiBqbtnPJ6KeM8TImqWz2TQ==
+graphql-code-generator@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-code-generator/-/graphql-code-generator-0.14.0-alpha.ff6f91a9.tgz#69ed866fec391abb4c871d5d9cd9585bd36f9de0"
+  integrity sha512-khUS0xSC6YzKePHtkBoXiIG8sA0b41tCSxXWZcZFBEDBZjfnOPNwYgy2ZY4PYwNF2yiMb10cRDH87YkZ5G+UUw==
   dependencies:
     "@graphql-modules/epoxy" "0.2.1"
     "@graphql-modules/logger" "0.2.1"
@@ -1894,7 +1894,7 @@ graphql-code-generator@0.14.0-alpha.d97d93cd:
     commander "2.19.0"
     fb-watchman "2.0.0"
     glob "7.1.3"
-    graphql-codegen-core "0.14.0-alpha.d97d93cd"
+    graphql-codegen-core "0.14.0-alpha.ff6f91a9"
     graphql-config "2.2.1"
     graphql-import "0.7.1"
     indent-string "3.2.0"
@@ -1914,6 +1914,19 @@ graphql-codegen-core@0.14.0-alpha.d97d93cd:
   version "0.14.0-alpha.d97d93cd"
   resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.0-alpha.d97d93cd.tgz#b019da00dc11c7e9fa5c4f0022a7ce9d08047fe3"
   integrity sha512-DEX0/VfUG9aysWeoTBkDvLsj3QWxtn+mYmi5ndpjouZpb698GhZHWeV2bFZdnW+S3XEl+HFF7SnkuOMGNI1ZsQ==
+  dependencies:
+    chalk "2.4.1"
+    change-case "3.0.2"
+    common-tags "1.8.0"
+    graphql-tag "2.10.0"
+    graphql-tools "4.0.3"
+    ts-log "2.1.3"
+    winston "3.1.0"
+
+graphql-codegen-core@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.0-alpha.ff6f91a9.tgz#35545ed95f6d6e115a0a19d2e0626106ba0ee8b9"
+  integrity sha512-O9P7xOL1DjHrfreL2fw5BIh668++QIxIZfRugANoSEQyjKSolBDNfaZpffmgBQWJ+GUq8sv/hfyQ7v4/td1yfg==
   dependencies:
     chalk "2.4.1"
     change-case "3.0.2"

@@ -1923,12 +1923,33 @@ graphql-codegen-core@0.14.0-alpha.d97d93cd:
     ts-log "2.1.3"
     winston "3.1.0"
 
+graphql-codegen-core@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.0-alpha.ff6f91a9.tgz#35545ed95f6d6e115a0a19d2e0626106ba0ee8b9"
+  integrity sha512-O9P7xOL1DjHrfreL2fw5BIh668++QIxIZfRugANoSEQyjKSolBDNfaZpffmgBQWJ+GUq8sv/hfyQ7v4/td1yfg==
+  dependencies:
+    chalk "2.4.1"
+    change-case "3.0.2"
+    common-tags "1.8.0"
+    graphql-tag "2.10.0"
+    graphql-tools "4.0.3"
+    ts-log "2.1.3"
+    winston "3.1.0"
+
 graphql-codegen-plugin-helpers@0.14.0-alpha.d97d93cd:
   version "0.14.0-alpha.d97d93cd"
   resolved "https://registry.yarnpkg.com/graphql-codegen-plugin-helpers/-/graphql-codegen-plugin-helpers-0.14.0-alpha.d97d93cd.tgz#020f18d5ecf11b7334158b3c04438bbc393cff59"
   integrity sha512-R3u2cZEjoXUXoXEJUYgpqaK6ITA+yvGijt3qQEfhfBs75mrFFV5R41OrKGbU2ChJngaAsHNkCSTaNvwizF2dEg==
   dependencies:
     graphql-codegen-core "0.14.0-alpha.d97d93cd"
+    import-from "2.1.0"
+
+graphql-codegen-plugin-helpers@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-plugin-helpers/-/graphql-codegen-plugin-helpers-0.14.0-alpha.ff6f91a9.tgz#1dec3bf2531119f4f7f48b07023c5fb0f579c498"
+  integrity sha512-MU52pYpIhkmnRlH7VpCaqhUoREe1YaOMYTFMwPyK9VwIUzmcELXmvEJhzFoNH8aRJGuFSyesrWYYDQbXJiSaGA==
+  dependencies:
+    graphql-codegen-core "0.14.0-alpha.ff6f91a9"
     import-from "2.1.0"
 
 graphql-codegen-typescript-common@0.14.0-alpha.d97d93cd:
@@ -1940,6 +1961,16 @@ graphql-codegen-typescript-common@0.14.0-alpha.d97d93cd:
     common-tags "1.8.0"
     graphql-codegen-core "0.14.0-alpha.d97d93cd"
     graphql-codegen-plugin-helpers "0.14.0-alpha.d97d93cd"
+
+graphql-codegen-typescript-common@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-common/-/graphql-codegen-typescript-common-0.14.0-alpha.ff6f91a9.tgz#42ffca0e282f0741ab0f7845814a8dcacb8f77b8"
+  integrity sha512-hkWVKCNXm84hnkyRDdE/OaY+E7IB9TR3cegSo7aSSMxFTpjlf8XdEqnHBK22XNIN0+bGByCM5nMDgQhhfY+J2w==
+  dependencies:
+    change-case "3.0.2"
+    common-tags "1.8.0"
+    graphql-codegen-core "0.14.0-alpha.ff6f91a9"
+    graphql-codegen-plugin-helpers "0.14.0-alpha.ff6f91a9"
 
 graphql-codegen-typescript-mongodb@0.14.0-alpha.d97d93cd:
   version "0.14.0-alpha.d97d93cd"
@@ -1958,12 +1989,12 @@ graphql-codegen-typescript-resolvers@0.14.0-alpha.d97d93cd:
     graphql-codegen-plugin-helpers "0.14.0-alpha.d97d93cd"
     graphql-codegen-typescript-common "0.14.0-alpha.d97d93cd"
 
-graphql-codegen-typescript-server@0.14.0-alpha.d97d93cd:
-  version "0.14.0-alpha.d97d93cd"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-server/-/graphql-codegen-typescript-server-0.14.0-alpha.d97d93cd.tgz#a7223abed0da77e52599dda1831af0f747570972"
-  integrity sha512-Bg1khy5a3OeBp4Jql0C6toLmwvyJCLUeNtGENieRqzaUEU00K2yBdsnvhUOKe441pQPl8OzmZ4IUoqYXAo+EaA==
+graphql-codegen-typescript-server@0.14.0-alpha.ff6f91a9:
+  version "0.14.0-alpha.ff6f91a9"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-server/-/graphql-codegen-typescript-server-0.14.0-alpha.ff6f91a9.tgz#4541a0065662ab55455ddaa27e57058dcc9496a3"
+  integrity sha512-V5uMDeZsbqofaVcYdx+CW3ETp7uFWlVfS21eCZciQcJ/FzF8j/B0YyCIe+gYM1nTLRRD2mElpHKZrJC6ke2gfA==
   dependencies:
-    graphql-codegen-typescript-common "0.14.0-alpha.d97d93cd"
+    graphql-codegen-typescript-common "0.14.0-alpha.ff6f91a9"
 
 graphql-config@2.2.1:
   version "2.2.1"

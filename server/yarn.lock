@@ -351,10 +351,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.9.tgz#a07bfa74331471e1dc22a47eb72026843f7b95c8"
   integrity sha512-eajkMXG812/w3w4a1OcBlaTwsFPO5F7fJ/amy+tieQxEMWBlbV1JGSjkFM+zkHNf81Cad+dfIRA+IBkvmvdAeA==
 
-"@types/prettier@1.13.2":
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.13.2.tgz#ffe96278e712a8d4e467e367a338b05e22872646"
-  integrity sha512-k6MCN8WuDiCj6O+UJsVMbrreZxkbrhQbO02oDj6yuRu8UAkp0MDdEcDKif8/gBKuJbT84kkO+VHQAqXkumEklg==
+"@types/prettier@1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.15.0.tgz#1c3e97298dec7614a6ff35b705815391630adfaa"
+  integrity sha512-WXGqbiMxDxPYjkK1NUDc4dsC1SGZQ3fPZRoSsOXSO+edScRvCptf8XAogn5Ohf1r3BXjrjVZP8JucmwD5raDQg==
 
 "@types/range-parser@*":
   version "1.2.2"
@@ -1876,16 +1876,15 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-graphql-code-generator@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-code-generator/-/graphql-code-generator-0.14.0.tgz#7b1fd197d2cd50cc5d6b8dc83bc1013a9386d1d2"
-  integrity sha512-GTovLG3tAWu/ejutLbHczmB3HP+2oyGN3puje+FyWmASaZLSM9U95EtfUFRmmH2fUDCq3eNkksJD1Xta4Sk57g==
+graphql-code-generator@0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/graphql-code-generator/-/graphql-code-generator-0.14.1.tgz#6e91a76d05dba1bd13bddfe45799bffa959224ae"
+  integrity sha512-3tCBx94lz+93oXHHIvtuqWm3PfungZ7SiskwcKZO5PJHv4f0BxCLHOT9B6EEdvqVAIAnSRdZTvqj+hHJwWXfTQ==
   dependencies:
-    "@graphql-modules/epoxy" "0.2.3"
-    "@graphql-modules/logger" "0.2.3"
+    "@graphql-modules/epoxy" "0.2.4"
     "@types/babylon" "6.16.4"
     "@types/is-glob" "4.0.0"
-    "@types/prettier" "1.13.2"
+    "@types/prettier" "1.15.0"
     "@types/valid-url" "1.0.2"
     babel-types "7.0.0-beta.3"
     babylon "7.0.0-beta.47"
@@ -1893,7 +1892,7 @@ graphql-code-generator@0.14.0:
     commander "2.19.0"
     fb-watchman "2.0.0"
     glob "7.1.3"
-    graphql-codegen-core "0.14.0"
+    graphql-codegen-core "0.14.1"
     graphql-config "2.2.1"
     graphql-import "0.7.1"
     indent-string "3.2.0"
@@ -1909,19 +1908,6 @@ graphql-code-generator@0.14.0:
     request "2.88.0"
     valid-url "1.0.9"
 
-graphql-codegen-core@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.0.tgz#c147d80892a30677935a7abbda7760f5057bf444"
-  integrity sha512-b5vRNceAWoiwxZw6UI2ZAUJqNWWBpMwKXGP8Ldal52TLPjDLxD/EcE3ptwzKysgkvlNJ7r8ziGhl1wpa3wxkEA==
-  dependencies:
-    chalk "2.4.1"
-    change-case "3.0.2"
-    common-tags "1.8.0"
-    graphql-tag "2.10.0"
-    graphql-tools "4.0.3"
-    ts-log "2.1.3"
-    winston "3.1.0"
-
 graphql-codegen-core@0.14.1:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.1.tgz#335a88d03a4093d7c6212bb27ba4f7cf9326d081"
@@ -1935,14 +1921,6 @@ graphql-codegen-core@0.14.1:
     ts-log "2.1.3"
     winston "3.1.0"
 
-graphql-codegen-plugin-helpers@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-plugin-helpers/-/graphql-codegen-plugin-helpers-0.14.0.tgz#714cfff432b68e3f137124d3157eb0362687eed1"
-  integrity sha512-0mjwIRX6D0dYrrgVSPRZ4bXh/Q2jv8Sk//dwAblgGNUzMZM4wB+RADik0auvLC+Iq5rz5UNG6FBHUhj+X+X+wQ==
-  dependencies:
-    graphql-codegen-core "0.14.0"
-    import-from "2.1.0"
-
 graphql-codegen-plugin-helpers@0.14.1:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/graphql-codegen-plugin-helpers/-/graphql-codegen-plugin-helpers-0.14.1.tgz#848be32b0f69888d84b03e2801dd91a7f110e1ab"
@@ -1950,16 +1928,6 @@ graphql-codegen-plugin-helpers@0.14.1:
   dependencies:
     graphql-codegen-core "0.14.1"
     import-from "2.1.0"
-
-graphql-codegen-typescript-common@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-common/-/graphql-codegen-typescript-common-0.14.0.tgz#019ccb1c4114af88748dfd7c2a18ac69508cb78e"
-  integrity sha512-pljMv0PO6s2D+hXsuYAGztGNBgBU0TFvdksXVpJG/ytcZ4lEqYG0FAU/4q8OoRcaahKNELYoBFxqY6rhkpG8ww==
-  dependencies:
-    change-case "3.0.2"
-    common-tags "1.8.0"
-    graphql-codegen-core "0.14.0"
-    graphql-codegen-plugin-helpers "0.14.0"
 
 graphql-codegen-typescript-common@0.14.1:
   version "0.14.1"
@@ -1971,22 +1939,22 @@ graphql-codegen-typescript-common@0.14.1:
     graphql-codegen-core "0.14.1"
     graphql-codegen-plugin-helpers "0.14.1"
 
-graphql-codegen-typescript-mongodb@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-mongodb/-/graphql-codegen-typescript-mongodb-0.14.0.tgz#939d2d0e114738d9d29d77b4be71db64eb520ddf"
-  integrity sha512-boWH/kQbM+8U5EiXAgdr6p+X7yKg8NqV7GCgsscmh7e+SDknWR1mLgUQS6L8+HloH5fzCa9TSdD6QCKDgtg/lA==
+graphql-codegen-typescript-mongodb@0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-mongodb/-/graphql-codegen-typescript-mongodb-0.14.1.tgz#bbd0793fc82bcbaf56b44ec01b4cc63a1a5e5cee"
+  integrity sha512-FLdD/MUSEBT/r/rV6D303QaEgB8BPrIpCJiK8t9PsjQvCeu0iopkllumbfnv01K8RDHY9MfrKIKTnwVw9IgJfA==
   dependencies:
-    graphql-codegen-core "0.14.0"
-    graphql-codegen-plugin-helpers "0.14.0"
-    graphql-codegen-typescript-common "0.14.0"
+    graphql-codegen-core "0.14.1"
+    graphql-codegen-plugin-helpers "0.14.1"
+    graphql-codegen-typescript-common "0.14.1"
 
-graphql-codegen-typescript-resolvers@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-resolvers/-/graphql-codegen-typescript-resolvers-0.14.0.tgz#2b582a4d5b8b25683fd7d0f01d365c5f047d8953"
-  integrity sha512-WanUnimnzRhA0Lvnpjun161JKSDrQwdl4zJ+RdZkglORuHn847mqHDWFCCSv28i8dXX2aSIpZJApEmsw4phBmg==
+graphql-codegen-typescript-resolvers@0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-resolvers/-/graphql-codegen-typescript-resolvers-0.14.1.tgz#885767e77ef3d082c70920c0e4db5970fd848fcc"
+  integrity sha512-H8WAAwP+kTB2ep7UathlgweWTVEOv3Rn7Ygpraer7YHBDhNYlPIunAVkgJxob4a2AodNBFaN2uF5G9a8cJwo5A==
   dependencies:
-    graphql-codegen-plugin-helpers "0.14.0"
-    graphql-codegen-typescript-common "0.14.0"
+    graphql-codegen-plugin-helpers "0.14.1"
+    graphql-codegen-typescript-common "0.14.1"
 
 graphql-codegen-typescript-server@0.14.1:
   version "0.14.1"
@@ -3018,17 +2986,6 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mongodb-core@3.1.8:
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.1.8.tgz#696cd5581c17d4f44f911b9cd089239e3e687b0e"
-  integrity sha512-reWCqIRNehyuLaqaz5JMOmh3Xd8JIjNX34o8mnewXLK2Fyt/Ky6BZbU+X0OPzy8qbX+JZrOtnuay7ASCieTYZw==
-  dependencies:
-    bson "^1.1.0"
-    require_optional "^1.0.1"
-    safe-buffer "^5.1.2"
-  optionalDependencies:
-    saslprep "^1.0.0"
-
 mongodb-core@3.1.9:
   version "3.1.9"
   resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.1.9.tgz#c31ee407bf932b0149eaed775c17ee09974e4ca3"
@@ -3040,20 +2997,12 @@ mongodb-core@3.1.9:
   optionalDependencies:
     saslprep "^1.0.0"
 
-mongodb@3.1.10:
+mongodb@3.1.10, mongodb@^3.1.8:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.1.10.tgz#45ad9b74ea376f4122d0881b75e5489b9e504ed7"
   integrity sha512-Uml42GeFxhTGQVml1XQ4cD0o/rp7J2ROy0fdYUcVitoE7vFqEhKH4TYVqRDpQr/bXtCJVxJdNQC1ntRxNREkPQ==
   dependencies:
     mongodb-core "3.1.9"
-    safe-buffer "^5.1.2"
-
-mongodb@^3.1.8:
-  version "3.1.9"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.1.9.tgz#9bd205b36b6ddf4bd1fb6c3c31641e1994b62075"
-  integrity sha512-f+Og32wK/ovzVlC1S6Ft7yjVTvNsAOs6pBpDrPd2/3wPO9ijNsQrTNntuECjOSxGZpPVl0aRqgHzF1e9e+KvnQ==
-  dependencies:
-    mongodb-core "3.1.8"
     safe-buffer "^5.1.2"
 
 ms@2.0.0:
@@ -4629,9 +4578,9 @@ ws@^5.2.0:
     async-limiter "~1.0.0"
 
 ws@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.1.0.tgz#119a9dbf92c54e190ec18d10e871d55c95cf9373"
-  integrity sha512-H3dGVdGvW2H8bnYpIDc3u3LH8Wue3Qh+Zto6aXXFzvESkTVT6rAfKR6tR/+coaUvxs8yHtmNV0uioBF62ZGSTg==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.1.1.tgz#3f5a17e51059272dc18cf039d3ef29eee5d3fdc6"
+  integrity sha512-tfSg0NBK1w9FkVhIftPp2lWPoFu3AInndGyydLPTNSIA4o1V7GveE2fCTF7kFmHZ/+NGVObBptvFXwzF7ALXDQ==
   dependencies:
     async-limiter "~1.0.0"
 

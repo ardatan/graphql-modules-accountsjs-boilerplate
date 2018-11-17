@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Apollo } from 'apollo-angular';
-import gql from 'graphql-tag';
-import { AllPosts, AddPost } from 'src/generated-models';
+import { AllPosts, AddPost, AllPostsGQL, AddPostGQL } from 'src/generated-models';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -12,7 +10,7 @@ import { map } from 'rxjs/operators';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private apollo: Apollo) { }
+  constructor(private allPostsGql: AllPostsGQL, private addPostGql: AddPostGQL) { }
 
   data: Observable<AllPosts.Query>;
   error: string;
@@ -22,44 +20,17 @@ export class HomeComponent implements OnInit {
   };
 
   ngOnInit() {
-    this.data = this.apollo.query<AllPosts.Query, AllPosts.Variables>({
-      query: gql`
-        query AllPosts {
-          allPosts{
-              id
-              title
-              content
-              author {
-                  username
-              }
-          }
-      }
-      `
-    }).pipe(
+    this.data = this.allPostsGql.fetch().pipe(
       map(results => results.data)
     );
   }
 
   async addPost() {
     try {
-      await this.apollo.mutate<AddPost.Mutation, AddPost.Variables>({
-        mutation: gql`
-          mutation AddPost($title: String, $content: String) {
-              addPost(title: $title, content: $content) {
-                  id
-                  title
-                  content
-                  author {
-                    username
-                  }
-              }
-          }
-        `,
-        variables: {
+      await this.addPostGql.mutate({
           title: this.newPost.title,
           content: this.newPost.content
-        }
-      }).toPromise();
+        }).toPromise();
     } catch (e) {
       this.error = e.message;
     }

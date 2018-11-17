@@ -114,3 +114,61 @@ export namespace AllPosts {
     username: string | null;
   };
 }
+
+// ====================================================
+// START: Apollo Angular template
+// ====================================================
+
+import { Injectable } from "@angular/core";
+import * as Apollo from "apollo-angular";
+
+import gql from "graphql-tag";
+
+// ====================================================
+// Apollo Services
+// ====================================================
+
+@Injectable({
+  providedIn: "root"
+})
+export class AddPostGQL extends Apollo.Mutation<
+  AddPost.Mutation,
+  AddPost.Variables
+> {
+  document: any = gql`
+    mutation AddPost($title: String, $content: String) {
+      addPost(title: $title, content: $content) {
+        id
+        title
+        content
+        author {
+          username
+        }
+      }
+    }
+  `;
+}
+@Injectable({
+  providedIn: "root"
+})
+export class AllPostsGQL extends Apollo.Query<
+  AllPosts.Query,
+  AllPosts.Variables
+> {
+  document: any = gql`
+    query AllPosts {
+      allPosts {
+        id
+        title
+        content
+        author {
+          username
+        }
+      }
+    }
+  `;
+}
+
+// ====================================================
+// END: Apollo Angular template
+// ====================================================

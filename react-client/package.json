@@ -16,7 +16,7 @@
     "apollo-boost": "^0.1.20",
     "concurrently": "4.0.1",
     "graphql": "^14.0.2",
-    "graphql-code-generator": "0.14.0",
+    "graphql-code-generator": "0.14.1",
     "graphql-codegen-typescript-client": "0.14.0",
     "graphql-codegen-typescript-mongodb": "0.14.0",
     "graphql-codegen-typescript-react-apollo": "0.14.0",

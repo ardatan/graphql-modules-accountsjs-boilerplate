@@ -108,17 +108,6 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@graphql-modules/epoxy@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.2.3.tgz#8e1b1e85c9c1b15f773d27b9eff85e8d1419b436"
-  integrity sha512-0GE5Jx5ESEqW9ftQmgGfANPyNUYd6pbMQBlkTOgmRvBh14IEM0ixqSiYCxDXtHvz/3Azb6KmSQJfQwFtuPQoSQ==
-  dependencies:
-    "@graphql-modules/logger" "0.2.3"
-    "@types/deepmerge" "2.1.0"
-    deepmerge "2.2.1"
-    graphql-tools "4.0.3"
-    tslib "1.9.3"
-
 "@graphql-modules/epoxy@0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.2.4.tgz#0571e232d4aa48d21c0213dab2c75e91fd04f129"
@@ -127,24 +116,6 @@
     "@types/deepmerge" "2.1.0"
     deepmerge "2.2.1"
     graphql-tools "4.0.3"
-    tslib "1.9.3"
-
-"@graphql-modules/logger@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/logger/-/logger-0.2.3.tgz#6513c9fd4a0cb76228b54bc16d3d54e35f52ca15"
-  integrity sha512-VotXEIJIOCJCFgU1PpYAnSqcnLjPADPOpKDFNjYVwsKont+GXCDp5guocH9vlLP7xgu1ospgTUOc7H42a+tnbQ==
-  dependencies:
-    tslib "1.9.3"
-    winston "3.1.0"
-
-"@graphql-modules/sonar@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.3.tgz#8420cd1bdeb5e5df5a5d1e4754ec87256007b102"
-  integrity sha512-YY+hHqFv/+jqZHFhp/RE8hAli0Z1Sk82U+Zu336e02wt+XeE3qFuhxlMqSzTUUvk7hCwrPehwciy/uhlXPJZFQ==
-  dependencies:
-    "@graphql-modules/logger" "0.2.3"
-    "@types/glob" "7.1.1"
-    glob "7.1.3"
     tslib "1.9.3"
 
 "@graphql-modules/sonar@0.2.4":

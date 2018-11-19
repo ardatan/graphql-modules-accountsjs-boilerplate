@@ -16,7 +16,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@accounts/database-manager": "0.6.0",
+    "@accounts/database-manager": "0.6.1",
     "@accounts/graphql-api": "0.6.0",
     "@accounts/mongo": "0.6.0",
     "@accounts/password": "0.6.0",

@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@accounts/database-manager@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.6.0.tgz#d9401a04d11d6ceafb059bbe064583de10322127"
-  integrity sha512-M9FVvtHv8RS+sn77bPd5i4bUsK+65GwY2zO0YTImnAuKnp7rUjsZttOO+NSM6R1Zz2pb44/zmuAjlS1Va5cupw==
+"@accounts/database-manager@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.6.1.tgz#23884d2213cefa9460558142a4e79bba02252584"
+  integrity sha512-R1fWRDUBRTpaSXpq1sdjBQurBksYDfoGqNjNkRfsWR5uBoBhLS+eH/SsG8QY+suqTgYUYk2pDOo0Lgqs+f8EUw==
   dependencies:
-    "@accounts/types" "^0.6.0"
+    "@accounts/types" "^0.6.1"
 
 "@accounts/graphql-api@0.6.0":
   version "0.6.0"
@@ -67,6 +67,11 @@
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.6.0.tgz#e13cd35c8815169cc3b356c03e8c878de71d0993"
   integrity sha512-DZmQJ3vfem+w0erWhoLg2xY0c2q0j61fabjPJdNVcYZc6bwae4U3w/TpwMkMuVFrq4qA4GZ8pXmza5fQmaEapQ==
+
+"@accounts/types@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.6.1.tgz#6311b0f6a8708722fb17b436383b9c917664fb48"
+  integrity sha512-/0qcjxlGukek5Jti6b7Mi1kPR296oa3dHhUaFNzMvUiLrir8D5TP+ueABCJddevoSKrOOnriN2XReQYe7oC5YA==
 
 "@apollographql/apollo-tools@^0.2.6":
   version "0.2.7"

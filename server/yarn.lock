@@ -22,12 +22,12 @@
     graphql-tag "^2.10.0"
     request-ip "2.1.1"
 
-"@accounts/mongo@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.6.0.tgz#207ba478043d9f1225cebe683cc7fe2020e8ad2b"
-  integrity sha512-5TeUFl7DrZphOgUVWn+60yElLuWUsJCxvCVPEAv4C1Fdzmvw+CMfqKFM0RH1hgs/XMwcYWqaP2tASTEV/vDa0A==
+"@accounts/mongo@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.6.1.tgz#726031ba2fed0dbc0dfcab462cdae6f40d2c0914"
+  integrity sha512-LC+wAgD1VJ1X5w6Q/1vMrJn9P0/2U4iqlFmpmtuR2It+vrV/wp+qETJA+cEYlMHyL4y4l0OAJP3AeYJciUzY5A==
   dependencies:
-    "@accounts/types" "^0.6.0"
+    "@accounts/types" "^0.6.1"
     lodash "^4.17.11"
     mongodb "^3.1.8"
 

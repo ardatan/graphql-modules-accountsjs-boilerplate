@@ -31,7 +31,16 @@
     lodash "^4.17.11"
     mongodb "^3.1.8"
 
-"@accounts/password@0.6.0", "@accounts/password@^0.6.0":
+"@accounts/password@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.6.1.tgz#791a2e114d73313c5448dd143758ecf622f96263"
+  integrity sha512-oshKgF7zF4Jy+h0SFFjx4qKsDEdUaCpamJSnzqDvRTwdL0dQGQaKc9PG8yvLJd2WDHHq5mkUVC+QmYbzmKVX/Q==
+  dependencies:
+    "@accounts/two-factor" "^0.6.1"
+    bcryptjs "^2.4.3"
+    lodash "^4.17.11"
+
+"@accounts/password@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.6.0.tgz#d7e4f8825f21d4767965b78515551981ec24ffc3"
   integrity sha512-yirTeOIh5pHeQie8DOk/a3PXvi6KBU2+p4r3AyE6QL91cuTpyMZpyu7knk0UpAsJZEqGTiQB/MfcK3wJ5UwCtQ==
@@ -70,6 +79,17 @@
   integrity sha512-b+15B9H7ea4OWmb+E5TR8XyhYDkYQU1kophEgA1G4of7+5z/4CbbmqvWRRfs+Tv0bINkq/Z9SRRKo2sDO/Hsgg==
   dependencies:
     "@accounts/types" "^0.6.0"
+    "@types/lodash" "^4.14.117"
+    "@types/speakeasy" "2.0.2"
+    lodash "^4.17.11"
+    speakeasy "^2.0.0"
+
+"@accounts/two-factor@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.6.1.tgz#dcb9fb7523940ff53455843549cc884e331aae41"
+  integrity sha512-KufTYOZGkdd6GjtaXuMaOqe/FGSEjpgi7VcFMXYOTjuFF2IJ7pFpqUvLSmcuiBU41F9sD+MplkHUdjdOFf7Qzw==
+  dependencies:
+    "@accounts/types" "^0.6.1"
     "@types/lodash" "^4.14.117"
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"

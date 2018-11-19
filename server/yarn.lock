@@ -9,14 +9,14 @@
   dependencies:
     "@accounts/types" "^0.6.1"
 
-"@accounts/graphql-api@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.6.0.tgz#b53dbd0c9b62ccbaef3fef4d50361f00a4e035a1"
-  integrity sha512-QQ9NLCIWsveskbG5gZCOMB7gC9LRWDpMTW9tMA8XmyUiivX70Ak9HRPChhhLWA3c64GnIKvicGm65O3/4dMarw==
+"@accounts/graphql-api@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.6.1.tgz#44978f8cc3bba5ef7c71544c860a6fe3657bb48a"
+  integrity sha512-I7lTY6eEymhbk6290F7F7zkbpr8eH9tHGPiHQ/lVsrB2YK26rmq4tklxhFF4j8pUXbacLtAcSWpLdxhPqrzFbQ==
   dependencies:
-    "@accounts/password" "^0.6.0"
-    "@accounts/server" "^0.6.0"
-    "@accounts/types" "^0.6.0"
+    "@accounts/password" "^0.6.1"
+    "@accounts/server" "^0.6.1"
+    "@accounts/types" "^0.6.1"
     "@types/request-ip" "0.0.33"
     deepmerge "2.2.1"
     graphql-tag "^2.10.0"
@@ -31,7 +31,7 @@
     lodash "^4.17.11"
     mongodb "^3.1.8"
 
-"@accounts/password@0.6.1":
+"@accounts/password@0.6.1", "@accounts/password@^0.6.1":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.6.1.tgz#791a2e114d73313c5448dd143758ecf622f96263"
   integrity sha512-oshKgF7zF4Jy+h0SFFjx4qKsDEdUaCpamJSnzqDvRTwdL0dQGQaKc9PG8yvLJd2WDHHq5mkUVC+QmYbzmKVX/Q==
@@ -40,16 +40,7 @@
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
 
-"@accounts/password@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.6.0.tgz#d7e4f8825f21d4767965b78515551981ec24ffc3"
-  integrity sha512-yirTeOIh5pHeQie8DOk/a3PXvi6KBU2+p4r3AyE6QL91cuTpyMZpyu7knk0UpAsJZEqGTiQB/MfcK3wJ5UwCtQ==
-  dependencies:
-    "@accounts/two-factor" "^0.6.0"
-    bcryptjs "^2.4.3"
-    lodash "^4.17.11"
-
-"@accounts/server@0.6.1":
+"@accounts/server@0.6.1", "@accounts/server@^0.6.1":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.6.1.tgz#74258e84c17ad2a85d419985442fc7cafc94959e"
   integrity sha512-4w3hwv5axjoXXXPL01isnIj3WyzKwgrLIrs3Z5w7bDFosyt+TkdzBwggVMK8zFIS2K4+oRW6rtRU6NhK5YM25g==
@@ -61,29 +52,6 @@
     jwt-decode "2.2.0"
     lodash "4.17.11"
 
-"@accounts/server@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.6.0.tgz#19a7d7fb5cbc8c2f91733e50ffa8f88956c3cedb"
-  integrity sha512-HFnJQE6BzNH8k5SOfGN1j3jLhfsHvO2mXzISkeezrCX6kDWheOee7yITRBJj2bscY0DqbSTJMTTHurw7SbGDVA==
-  dependencies:
-    "@accounts/types" "^0.6.0"
-    "@types/jsonwebtoken" "7.2.8"
-    emittery "0.4.1"
-    jsonwebtoken "8.3.0"
-    jwt-decode "2.2.0"
-    lodash "4.17.11"
-
-"@accounts/two-factor@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.6.0.tgz#94ccc04f2708de16155571b27f8270a5be70b123"
-  integrity sha512-b+15B9H7ea4OWmb+E5TR8XyhYDkYQU1kophEgA1G4of7+5z/4CbbmqvWRRfs+Tv0bINkq/Z9SRRKo2sDO/Hsgg==
-  dependencies:
-    "@accounts/types" "^0.6.0"
-    "@types/lodash" "^4.14.117"
-    "@types/speakeasy" "2.0.2"
-    lodash "^4.17.11"
-    speakeasy "^2.0.0"
-
 "@accounts/two-factor@^0.6.1":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.6.1.tgz#dcb9fb7523940ff53455843549cc884e331aae41"
@@ -94,11 +62,6 @@
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"
     speakeasy "^2.0.0"
-
-"@accounts/types@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.6.0.tgz#e13cd35c8815169cc3b356c03e8c878de71d0993"
-  integrity sha512-DZmQJ3vfem+w0erWhoLg2xY0c2q0j61fabjPJdNVcYZc6bwae4U3w/TpwMkMuVFrq4qA4GZ8pXmza5fQmaEapQ==
 
 "@accounts/types@^0.6.1":
   version "0.6.1"

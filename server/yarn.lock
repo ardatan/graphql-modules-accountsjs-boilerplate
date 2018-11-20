@@ -97,13 +97,13 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
-"@graphql-modules/core@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.2.5.tgz#b4fbcbc3959dfb4124b798e55b2e121a061e695c"
-  integrity sha512-eoEzbyAx0+16nZwl9Slttat+9K1Wk8xhRfrQYB2cbIEXhdddNvOrplksXvOlMYoOJn3PDL99W2N0w3K6N5Xceg==
+"@graphql-modules/core@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.2.6.tgz#a803eac82c2b6614f52737e8dcd1a120ca7c2815"
+  integrity sha512-BhFgysDa4+lz3HdgjGGblUd+wv66/d1R0Z20CpcvUxLrvlcUj3pbDavuxXp7puYIibLS2FHGQa3DsKNwjPctGQ==
   dependencies:
-    "@graphql-modules/epoxy" "0.2.5"
-    "@graphql-modules/sonar" "0.2.5"
+    "@graphql-modules/epoxy" "0.2.6"
+    "@graphql-modules/sonar" "0.2.6"
     dependency-graph "0.7.2"
     graphql-tools "4.0.3"
     tslib "1.9.3"
@@ -128,10 +128,29 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
+"@graphql-modules/epoxy@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.2.6.tgz#117fd0857dd99e7cc08bc5a22511c26bbb1f7f89"
+  integrity sha512-6kwM5jsVSQpn3+UR5NPuCss+s9qSBS3sWUFCSFMBEjRDcgwCDE8L9eVqT3U9FD4ZPGCSclna+b+Dt+S9w012dA==
+  dependencies:
+    "@types/deepmerge" "2.1.0"
+    deepmerge "2.2.1"
+    graphql-tools "4.0.3"
+    tslib "1.9.3"
+
 "@graphql-modules/sonar@0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.5.tgz#5ccb76a04f19919a9bd7d542770fd301464a4003"
   integrity sha512-N9+QotNdk7bDagksgmCxsXZLexSPQRWSVsgqEdBClvdqPocrLLcyVC5TWPOlE+HaFweT32Aem8mQzzzmAyanTw==
+  dependencies:
+    "@types/glob" "7.1.1"
+    glob "7.1.3"
+    tslib "1.9.3"
+
+"@graphql-modules/sonar@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.6.tgz#c6c57b51ca779ec916a9144483f6ed9eb377cead"
+  integrity sha512-NCw0nCjj3FeBpmMM84ltqt1nYuig4PaxOjYxHqJcnx6sCzPnoybTO48ZOO7Yef6LxWgRjR15DyCGPvvpn8m34Q==
   dependencies:
     "@types/glob" "7.1.1"
     glob "7.1.3"

@@ -22,7 +22,7 @@
     "@accounts/password": "0.6.1",
     "@accounts/server": "0.6.1",
     "@graphql-modules/core": "0.2.5",
-    "@graphql-modules/epoxy": "0.2.5",
+    "@graphql-modules/epoxy": "0.2.6",
     "@graphql-modules/sonar": "0.2.5",
     "@types/mongodb": "3.1.14",
     "apollo-server": "2.2.2",

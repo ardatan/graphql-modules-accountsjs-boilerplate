@@ -128,6 +128,16 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
+"@graphql-modules/epoxy@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.2.6.tgz#117fd0857dd99e7cc08bc5a22511c26bbb1f7f89"
+  integrity sha512-6kwM5jsVSQpn3+UR5NPuCss+s9qSBS3sWUFCSFMBEjRDcgwCDE8L9eVqT3U9FD4ZPGCSclna+b+Dt+S9w012dA==
+  dependencies:
+    "@types/deepmerge" "2.1.0"
+    deepmerge "2.2.1"
+    graphql-tools "4.0.3"
+    tslib "1.9.3"
+
 "@graphql-modules/sonar@0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.5.tgz#5ccb76a04f19919a9bd7d542770fd301464a4003"

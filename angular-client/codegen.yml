@@ -4,8 +4,7 @@ documents: ./src/**/*.graphql
 generates:
   ./src/generated-models.ts:
     plugins:
-      - add
-         /* tslint:disable */
+      - add: /* tslint:disable */
       - typescript-common
       - typescript-client
       - typescript-apollo-angular

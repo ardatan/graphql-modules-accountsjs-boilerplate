@@ -4,7 +4,7 @@ import { mergeGraphQLSchemas, mergeResolvers } from '@graphql-modules/epoxy';
 import { AccountsModule, AccountsModuleContext, authenticated } from "@accounts/graphql-api";
 import { PostsProvider } from './providers/posts.provider';
 import { IncomingMessage } from "http";
-import { DbModule } from "@modules/db";
+import { DbModule } from "@modules/db/db.module";
 
 export interface PostsModuleContext extends AccountsModuleContext {}
 
@@ -22,8 +22,5 @@ export const PostsModule = new GraphQLModule<{}, PostsModuleRequest, PostsModule
     ],
     providers: [
         PostsProvider
-    ],
-    resolversComposition: {
-        'Mutation.addPost': authenticated,
-    }
+    ]
 });

@@ -5,6 +5,9 @@ require:
   - tsconfig-paths/register
 generates:
   ./src/generated-models.ts:
+    config:
+      mappers:
+        Post: 'PostDbObject'
     plugins:
       - typescript-common
       - typescript-server

@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": [
+        "server",
+        "react-client",
+        "angular-client"
+    ],
+    "scripts": {
+        "start:angular:dev": "cd angular-client && yarn start",
+        "start:react:dev": "cd react-client && yarn start",
+        "start:server:dev": "cd server && yarn dev"
+    }
+}

@@ -3,8 +3,8 @@ import { AccountsModule } from '@accounts/graphql-api';
 import AccountsServer from '@accounts/server';
 import { Db } from 'mongodb';
 import { IncomingMessage } from 'http';
-import { PostsModule } from './post';
-import { DbModule } from './db';
+import { PostsModule } from '@modules/posts/posts.module';
+import { DbModule } from '@modules/db/db.module';
 
 export interface AppModuleConfig {
     accountsServer: AccountsServer;

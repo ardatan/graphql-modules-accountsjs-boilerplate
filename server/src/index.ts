@@ -1,15 +1,14 @@
 import 'reflect-metadata';
 import { ApolloServer } from 'apollo-server';
-import { MongoClient, ObjectId } from 'mongodb';
+import { MongoClient } from 'mongodb';
 import { AccountsServer } from '@accounts/server';
 import { AccountsPassword } from '@accounts/password';
-import { DatabaseManager } from '@accounts/database-manager';
-import MongoDBInterface from '@accounts/mongo';
-import { AppModule } from '@modules/app';
+import AccountsMongoDB from '@accounts/mongo';
+import { AppModule } from '@modules/app/app.module';
 
 const PORT = process.env['MONGO_URI'] || 4000;
 const MONGO_URI = process.env['MONGO_URI'] || 'mongodb://localhost:27017/myDb';
-const TOKEN_SECRET = process.env['TOKEN_SECRET'] || 'myTokenSecret'; 
+const TOKEN_SECRET = process.env['TOKEN_SECRET'] || 'myTokenSecret';
 
 async function main() {
     const mongoClient = await MongoClient.connect(MONGO_URI, {
@@ -17,23 +16,16 @@ async function main() {
         native_parser: true
     });
     const db = mongoClient.db();
-    const userStorage = new MongoDBInterface(db, {
-        convertUserIdToMongoObjectId: false
-    });
-    // Create database manager (create user, find users, sessions etc) for accounts-js
-    const accountsDb = new DatabaseManager({
-        sessionStorage: userStorage,
-        userStorage,
-    });
-        // Create accounts server that holds a lower level of all accounts operations
+    // Create accounts server that holds a lower level of all accounts operations
     const accountsServer = new AccountsServer(
-            { db: accountsDb, tokenSecret: TOKEN_SECRET },
-            {
-            password: new AccountsPassword({
-                passwordHashAlgorithm: 'sha256'
-            }),
-            }
-        );
+        {
+            db: new AccountsMongoDB(db),
+            tokenSecret: TOKEN_SECRET
+        },
+        {
+            password: new AccountsPassword(),
+        }
+    );
     const { schema, context } = AppModule.forRoot({
         accountsServer,
         db

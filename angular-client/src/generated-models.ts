@@ -1,3 +1,5 @@
+/* tslint:disable */
+
 export interface CreateUserInput {
   username?: string | null;
 

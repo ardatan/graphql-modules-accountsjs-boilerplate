@@ -1,12 +1,11 @@
 import { Injectable } from "@graphql-modules/core";
-import { Db, Collection, ObjectID, ObjectId } from "mongodb";
-import { AccountsServer } from '@accounts/server';
+import { Db, Collection } from "mongodb";
 import { PostDbObject } from "@models";
 
 @Injectable()
 export class PostsProvider {
     collection: Collection<PostDbObject>;
-    constructor(db: Db, private accountsServer: AccountsServer) {
+    constructor(db: Db) {
         this.collection = db.collection('posts');
     }
     getAllPosts() {
@@ -15,10 +14,7 @@ export class PostsProvider {
     getPostsOfUser(userId: string) {
         return this.collection.find({ userId }).toArray();
     }
-    async getUserById(userId: string) {
-        return this.accountsServer.findUserById(userId);
-    }
-    async addPost(title, content, userId) {
+    async addPost(title, content, userId): Promise<PostDbObject> {
         const { insertedId } = await this.collection.insertOne({
             title, 
             content,

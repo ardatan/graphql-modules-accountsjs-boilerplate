@@ -15,4 +15,4 @@ export const DbModule = new GraphQLModule<DbModuleConfig>({
             useValue: config.db,
         }
     ]
-})
+});

@@ -97,13 +97,13 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
-"@graphql-modules/core@0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.2.4.tgz#db9e17c910b75e1fa09e60fd0e7abcee02f78c9a"
-  integrity sha512-DxdsBf8W4AKkAsCei6C2gzijdLne9l/OtfJ2J3olGlmr4Pf3E1/Sos1JGAfSaq7JBHaSki4jq/w0un4yaoaDcg==
+"@graphql-modules/core@0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.2.5.tgz#b4fbcbc3959dfb4124b798e55b2e121a061e695c"
+  integrity sha512-eoEzbyAx0+16nZwl9Slttat+9K1Wk8xhRfrQYB2cbIEXhdddNvOrplksXvOlMYoOJn3PDL99W2N0w3K6N5Xceg==
   dependencies:
-    "@graphql-modules/epoxy" "0.2.4"
-    "@graphql-modules/sonar" "0.2.4"
+    "@graphql-modules/epoxy" "0.2.5"
+    "@graphql-modules/sonar" "0.2.5"
     dependency-graph "0.7.2"
     graphql-tools "4.0.3"
     tslib "1.9.3"
@@ -126,15 +126,6 @@
     "@types/deepmerge" "2.1.0"
     deepmerge "2.2.1"
     graphql-tools "4.0.3"
-    tslib "1.9.3"
-
-"@graphql-modules/sonar@0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.4.tgz#ec26a0fdc6e432c34e3200ce2ecfc6d5dbd44732"
-  integrity sha512-KSNkkXHP8emjXhvw82JzdoYPmCXgmKbZjkFBbGinzgwp+9vv2DB8YHgx6PKe2ADgKb90z6Cc9uo0XAGaIT++JQ==
-  dependencies:
-    "@types/glob" "7.1.1"
-    glob "7.1.3"
     tslib "1.9.3"
 
 "@graphql-modules/sonar@0.2.5":

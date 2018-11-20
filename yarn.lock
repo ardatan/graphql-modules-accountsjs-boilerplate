@@ -1178,13 +1178,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@graphql-modules/core@0.3.0-alpha.233db89c":
-  version "0.3.0-alpha.233db89c"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.3.0-alpha.233db89c.tgz#66ed40184392b48a960cc8790b6d63e8540489f4"
-  integrity sha512-twCeOn4MVn14c8J51/wi/rdzJeRTPzOc0cBROTplIVQwUoJLls1b+sYykPT+qLdH4VHaZlYHmCranDBExHcqXg==
+"@graphql-modules/core@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.2.6.tgz#a803eac82c2b6614f52737e8dcd1a120ca7c2815"
+  integrity sha512-BhFgysDa4+lz3HdgjGGblUd+wv66/d1R0Z20CpcvUxLrvlcUj3pbDavuxXp7puYIibLS2FHGQa3DsKNwjPctGQ==
   dependencies:
-    "@graphql-modules/epoxy" "0.3.0-alpha.233db89c"
-    "@graphql-modules/sonar" "0.3.0-alpha.233db89c"
+    "@graphql-modules/epoxy" "0.2.6"
+    "@graphql-modules/sonar" "0.2.6"
     dependency-graph "0.7.2"
     graphql-tools "4.0.3"
     tslib "1.9.3"
@@ -1199,20 +1199,20 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@graphql-modules/epoxy@0.3.0-alpha.233db89c":
-  version "0.3.0-alpha.233db89c"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.3.0-alpha.233db89c.tgz#996406721bdde60f4483eff14e80164a0363068f"
-  integrity sha512-Kbb2muXTTFFJ5x8kyJ8vqla2mM2THPfCX9h0prl98E0NwpjL0QpkI1GdVCjgtQB+YEzSUYvGEzG24Vg7SYidSA==
+"@graphql-modules/epoxy@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/epoxy/-/epoxy-0.2.6.tgz#117fd0857dd99e7cc08bc5a22511c26bbb1f7f89"
+  integrity sha512-6kwM5jsVSQpn3+UR5NPuCss+s9qSBS3sWUFCSFMBEjRDcgwCDE8L9eVqT3U9FD4ZPGCSclna+b+Dt+S9w012dA==
   dependencies:
     "@types/deepmerge" "2.1.0"
     deepmerge "2.2.1"
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@graphql-modules/sonar@0.3.0-alpha.233db89c":
-  version "0.3.0-alpha.233db89c"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.3.0-alpha.233db89c.tgz#400b5956947eb4715cf7ac16cbf1b020ec9ae7a6"
-  integrity sha512-JNWB3vX9Ma5il7NB450FtPlegZkvRVJYvTphcdvk2w7GHyfv63beHUea+oqdnosormTsjcUjtoDEjHQwFOp4Ww==
+"@graphql-modules/sonar@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.6.tgz#c6c57b51ca779ec916a9144483f6ed9eb377cead"
+  integrity sha512-NCw0nCjj3FeBpmMM84ltqt1nYuig4PaxOjYxHqJcnx6sCzPnoybTO48ZOO7Yef6LxWgRjR15DyCGPvvpn8m34Q==
   dependencies:
     "@types/glob" "7.1.1"
     glob "7.1.3"
@@ -1493,15 +1493,10 @@
   resolved "https://registry.yarnpkg.com/@types/is-glob/-/is-glob-4.0.0.tgz#fb8a2bff539025d4dcd6d5efe7689e03341b876d"
   integrity sha512-zC/2EmD8scdsGIeE+Xg7kP7oi9VP90zgMQtm9Cr25av4V+a+k8slQyiT60qSw8KORYrOKlPXfHwoa1bQbRzskQ==
 
-"@types/jasmine@*":
+"@types/jasmine@*", "@types/jasmine@~3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.0.tgz#6b0e4b0192367d77e438ff660ccc4487c9602e7b"
   integrity sha512-0VU8WsYEOYmoxVtUuafB66/+9G8gMdGAC3dhCE/CMpjXgNIz9fwC6g41kRlNxFgpQI/uX/aWNLArNg7KmeFYvw==
-
-"@types/jasmine@~3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.0.0.tgz#9a6b6755a02fcd6baa088a767557709c79728f98"
-  integrity sha512-yeQ81bQ46gOfj+AQLp5/x0Kylq6lz9d5a82Vo5JS63rDn1ctoItKcwrcKEM1wGsjqA4SrYkzzIHo8dbq8RhG5w==
 
 "@types/jasminewd2@~2.0.3":
   version "2.0.6"
@@ -3851,22 +3846,7 @@ concat-stream@^1.5.0, concat-stream@^1.5.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concurrently@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-4.0.1.tgz#f6310fbadf2f476dd95df952edb5c0ab789f672c"
-  integrity sha512-D8UI+mlI/bfvrA57SeKOht6sEpb01dKk+8Yee4fbnkk1Ue8r3S+JXoEdFZIpzQlXJGtnxo47Wvvg/kG4ba3U6Q==
-  dependencies:
-    chalk "^2.4.1"
-    date-fns "^1.23.0"
-    lodash "^4.17.10"
-    read-pkg "^4.0.1"
-    rxjs "6.2.2"
-    spawn-command "^0.0.2-1"
-    supports-color "^4.5.0"
-    tree-kill "^1.1.0"
-    yargs "^12.0.1"
-
-concurrently@^4.0.1:
+concurrently@4.1.0, concurrently@^4.0.1:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-4.1.0.tgz#17fdf067da71210685d9ea554423ef239da30d33"
   integrity sha512-pwzXCE7qtOB346LyO9eFWpkFJVO3JQZ/qU/feGeaAHiX1M3Rw3zgXKc5cZ8vSH5DGygkjzLFDzA/pwoQDkRNGg==
@@ -11996,13 +11976,6 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   integrity sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=
   dependencies:
     aproba "^1.1.1"
-
-rxjs@6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
-  integrity sha512-0MI8+mkKAXZUF9vMrEoPnaoHkfzBPP4IGwUYRJhIRJF6/w3uByO1e91bEHn8zd43RdkTMKiooYKmwz7RH6zfOQ==
-  dependencies:
-    tslib "^1.9.0"
 
 rxjs@6.3.3, rxjs@^6.1.0, rxjs@^6.3.3, rxjs@~6.3.3:
   version "6.3.3"

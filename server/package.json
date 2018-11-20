@@ -21,9 +21,9 @@
     "@accounts/mongo": "0.6.1",
     "@accounts/password": "0.6.1",
     "@accounts/server": "0.6.1",
-    "@graphql-modules/core": "0.3.0-alpha.233db89c",
-    "@graphql-modules/epoxy": "0.3.0-alpha.233db89c",
-    "@graphql-modules/sonar": "0.3.0-alpha.233db89c",
+    "@graphql-modules/core": "0.2.6",
+    "@graphql-modules/epoxy": "0.2.6",
+    "@graphql-modules/sonar": "0.2.6",
     "@types/mongodb": "3.1.14",
     "apollo-server": "2.2.2",
     "graphql": "0.13.2",
@@ -40,7 +40,7 @@
     "typescript": "3.1.6"
   },
   "devDependencies": {
-    "concurrently": "4.0.1",
+    "concurrently": "4.1.0",
     "nodemon": "1.18.6"
   }
 }

@@ -25,7 +25,7 @@
     "@graphql-modules/epoxy": "0.2.8",
     "@graphql-modules/sonar": "0.2.8",
     "@types/mongodb": "3.1.14",
-    "apollo-server": "2.2.2",
+    "apollo-server": "2.2.5",
     "graphql": "0.13.2",
     "graphql-code-generator": "0.14.2",
     "graphql-codegen-add": "0.14.2",

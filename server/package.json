@@ -21,7 +21,7 @@
     "@accounts/mongo": "0.6.1",
     "@accounts/password": "0.6.1",
     "@accounts/server": "0.6.1",
-    "@graphql-modules/core": "0.2.8",
+    "@graphql-modules/core": "0.2.15",
     "@graphql-modules/epoxy": "0.2.8",
     "@graphql-modules/sonar": "0.2.8",
     "@types/mongodb": "3.1.14",

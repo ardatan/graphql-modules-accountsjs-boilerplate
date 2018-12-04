@@ -9,10 +9,14 @@ export interface DbModuleConfig {
 export const DbModule = new GraphQLModule<DbModuleConfig>({
     name: 'db',
     typeDefs: DIRECTIVES,
-    providers: ({config}) => [
+    providers: ({ config: { db }}) => [
         {
             provide: Db,
-            useValue: config.db,
+            useValue: db,
         }
-    ]
+    ],
+    directiveResolvers: {
+        id: (_, { _id }) => _id.toString(),
+    },
+    configRequired: true,
 });

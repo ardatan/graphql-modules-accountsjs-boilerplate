@@ -5,11 +5,15 @@ require:
   - tsconfig-paths/register
 generates:
   ./src/generated-models.ts:
-    config:
-      mappers:
-        Post: 'PostDbObject'
     plugins:
+      - add: import { ModuleContext } from '@graphql-modules/core';
+      - add: import { AccountsModuleContext } from '@accounts/graphql-api';
       - typescript-common
       - typescript-server
       - typescript-mongodb
       - typescript-resolvers
+    config:
+      contextType: ModuleContext<AccountsModuleContext>
+      mappers:
+        Post: PostDbObject
+

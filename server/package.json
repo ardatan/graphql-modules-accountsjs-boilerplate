@@ -7,7 +7,7 @@
   "author": "Arda TANRIKULU",
   "license": "MIT",
   "scripts": {
-    "generate": "gql-gen --config ./codegen.yml",
+    "generate": "gql-gen",
     "generate:watch": "nodemon --exec yarn generate -e graphql",
     "start:server": "ts-node -r tsconfig-paths/register src/index.ts",
     "start:server:watch": "nodemon --exec yarn start:server -e ts",
@@ -16,33 +16,33 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@accounts/database-manager": "0.6.1",
-    "@accounts/graphql-api": "0.6.1",
-    "@accounts/mongo": "0.6.1",
-    "@accounts/password": "0.6.1",
-    "@accounts/server": "0.6.1",
-    "@graphql-modules/core": "0.2.8",
-    "@graphql-modules/epoxy": "0.2.8",
-    "@graphql-modules/sonar": "0.2.8",
-    "@types/mongodb": "3.1.14",
-    "apollo-server": "2.2.2",
-    "graphql": "0.13.2",
-    "graphql-code-generator": "0.14.2",
-    "graphql-codegen-add": "0.14.2",
-    "graphql-codegen-typescript-common": "0.14.2",
-    "graphql-codegen-typescript-mongodb": "0.14.2",
-    "graphql-codegen-typescript-resolvers": "0.14.2",
-    "graphql-codegen-typescript-server": "0.14.2",
+    "@accounts/database-manager": "0.9.0",
+    "@accounts/graphql-api": "0.9.0",
+    "@accounts/mongo": "0.9.0",
+    "@accounts/password": "0.9.0",
+    "@accounts/server": "0.9.0",
+    "@graphql-modules/core": "0.2.15",
+    "@graphql-modules/epoxy": "0.2.15",
+    "@graphql-modules/sonar": "0.2.15",
+    "@types/mongodb": "3.1.17",
+    "apollo-server": "2.2.5",
+    "graphql": "14.0.2",
+    "graphql-code-generator": "0.14.5",
+    "graphql-codegen-add": "0.14.5",
+    "graphql-codegen-typescript-common": "0.14.5",
+    "graphql-codegen-typescript-mongodb": "0.14.5",
+    "graphql-codegen-typescript-resolvers": "0.14.5",
+    "graphql-codegen-typescript-server": "0.14.5",
     "graphql-tag": "2.10.0",
     "graphql-tools": "4.0.3",
     "mongodb": "3.1.10",
     "reflect-metadata": "0.1.12",
     "ts-node": "7.0.1",
     "tsconfig-paths": "3.7.0",
-    "typescript": "3.1.6"
+    "typescript": "3.2.1"
   },
   "devDependencies": {
     "concurrently": "4.1.0",
-    "nodemon": "1.18.6"
+    "nodemon": "1.18.7"
   }
 }

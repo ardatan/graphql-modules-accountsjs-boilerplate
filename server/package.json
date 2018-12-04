@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@accounts/database-manager": "0.6.1",
-    "@accounts/graphql-api": "0.6.1",
+    "@accounts/graphql-api": "0.9.0",
     "@accounts/mongo": "0.6.1",
     "@accounts/password": "0.6.1",
     "@accounts/server": "0.6.1",

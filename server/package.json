@@ -20,7 +20,7 @@
     "@accounts/graphql-api": "0.6.1",
     "@accounts/mongo": "0.6.1",
     "@accounts/password": "0.6.1",
-    "@accounts/server": "0.6.1",
+    "@accounts/server": "0.9.0",
     "@graphql-modules/core": "0.2.8",
     "@graphql-modules/epoxy": "0.2.8",
     "@graphql-modules/sonar": "0.2.8",

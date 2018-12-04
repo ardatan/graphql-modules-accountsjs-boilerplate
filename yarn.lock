@@ -1476,10 +1476,10 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@graphql-modules/sonar@0.2.15":
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.15.tgz#186595179a6ca5b84c234bd16bf67fa4ef11c263"
-  integrity sha512-hoLG0yJivEfvT+rKpRmFp/CFaRolg+Fcsk7RmwK41Fbz18d9B9ocVtaSpxfkwzoZ62i7c6mZcKpzJn0fW0k4jw==
+"@graphql-modules/sonar@0.2.17":
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.17.tgz#169e741dec61684c9453dc46f836a372f9af228c"
+  integrity sha512-r34ct8cACtarluY1zEPyLBsrDHsEeYUMR1D+3zHA5oEMCovsViyBIoU7RkjxWBQviUcmYPA/RlclGdU+L6wsxw==
   dependencies:
     "@types/glob" "7.1.1"
     glob "7.1.3"

@@ -6676,14 +6676,14 @@ graphql-codegen-typescript-mongodb@0.14.5:
     graphql-codegen-plugin-helpers "0.14.5"
     graphql-codegen-typescript-common "0.14.5"
 
-graphql-codegen-typescript-react-apollo@0.14.1:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-react-apollo/-/graphql-codegen-typescript-react-apollo-0.14.1.tgz#452e8cfd1582b9b0943fe1c1f9742f4317eece28"
-  integrity sha512-iNoQc3O1dI2O5V7KNa4sZGBrY/a3USYfVQhwD2GquLigvgdszZu0i2ZrA9NLO2zQG71g4Q6BGzyH5UcdUSVPvA==
+graphql-codegen-typescript-react-apollo@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/graphql-codegen-typescript-react-apollo/-/graphql-codegen-typescript-react-apollo-0.15.0.tgz#93034ec004296f5fce03d34c717ba2812743fa52"
+  integrity sha512-n4G7SCNsp5aZeNsCbiRyhSzb4ygBPJXkAFN5sQ/bPX8zyFoG1QEHY/eqqnZodxnsvNelPDbFXZx6qWKt0Snx2w==
   dependencies:
-    graphql-codegen-core "0.14.1"
-    graphql-codegen-plugin-helpers "0.14.1"
-    graphql-codegen-typescript-common "0.14.1"
+    graphql-codegen-core "0.15.0"
+    graphql-codegen-plugin-helpers "0.15.0"
+    graphql-codegen-typescript-common "0.15.0"
 
 graphql-codegen-typescript-resolvers@0.14.5:
   version "0.14.5"

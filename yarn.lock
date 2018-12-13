@@ -2,22 +2,14 @@
 # yarn lockfile v1
 
 
-"@accounts/client-password@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.6.1.tgz#8808a3a613d9b7ad8bb7cdd0aaf0f7b069b7adb7"
-  integrity sha512-33sJ/1BPC24/YnrToKustSWPUdA2AcVkNzUgyMHt75bBOi4KEpaVpJjTekoRbzyApzSTVQ2/1Mi6w3lFU5B2nQ==
+"@accounts/client-password@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.9.0.tgz#1c5c62d439504ca7c871476d6d4471ee1ec169ae"
+  integrity sha512-UAJCQEj2C8McIQEAeys7uQMYzN6JAwMl0/1QXEomY8nZWuWYQwQ3oxsDj1oHhzwbbiPoEID6ckOeeRJG+v95/g==
   dependencies:
-    "@accounts/client" "^0.6.1"
-    "@accounts/types" "^0.6.1"
+    "@accounts/client" "^0.9.0"
+    "@accounts/types" "^0.9.0"
     crypto-js "^3.1.9-1"
-
-"@accounts/client@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.6.1.tgz#ef9fbdbd87c925fbdae6377b154477f17f0cfddb"
-  integrity sha512-VchhFwrkP9Y/ztuMO4cCcOmCrPg+QQ2p+Kecnko3AA5Xag65HrH7YVYpPsiUK2KiBxrvwPCdYU7L3N7IM14elw==
-  dependencies:
-    "@accounts/types" "^0.6.1"
-    jwt-decode "2.2.0"
 
 "@accounts/client@^0.9.0":
   version "0.9.0"
@@ -95,11 +87,6 @@
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"
     speakeasy "^2.0.0"
-
-"@accounts/types@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.6.1.tgz#6311b0f6a8708722fb17b436383b9c917664fb48"
-  integrity sha512-/0qcjxlGukek5Jti6b7Mi1kPR296oa3dHhUaFNzMvUiLrir8D5TP+ueABCJddevoSKrOOnriN2XReQYe7oC5YA==
 
 "@accounts/types@^0.9.0":
   version "0.9.0"

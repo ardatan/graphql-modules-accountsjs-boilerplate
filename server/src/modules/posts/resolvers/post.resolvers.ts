@@ -1,9 +1,9 @@
 import { PostsModule } from "../posts.module";
-import { PostResolvers } from '@models';
-import AccountsServer from "@accounts/server";
+import { IResolvers } from '@models';
+import { AccountsServer } from "@accounts/server";
 
-export default ({ injector }: typeof PostsModule) => ({
+export default ({ injector }: typeof PostsModule): IResolvers => ({
     Post: {
         author: ({ userId }) => injector.get(AccountsServer).findUserById(userId)
-    } as PostResolvers.Resolvers
+    }
 });

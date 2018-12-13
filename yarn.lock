@@ -6454,19 +6454,6 @@ graphql-codegen-add@0.15.0, graphql-codegen-add@^0.15.0:
   dependencies:
     graphql-codegen-core "0.15.0"
 
-graphql-codegen-core@0.14.5:
-  version "0.14.5"
-  resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.14.5.tgz#e4bdcd996c1bc90c674145a2c69dc4d9d2df2d8d"
-  integrity sha512-8jNaoHkGVavnThszlLf1qF0gJYvicUGvH9615F9gbxNR9opzDUJiKFB8thsrUddpfIGUb0jYDsWkgpPGNG2Gjg==
-  dependencies:
-    chalk "2.4.1"
-    change-case "3.0.2"
-    common-tags "1.8.0"
-    graphql-tag "2.10.0"
-    graphql-tools "4.0.3"
-    ts-log "2.1.4"
-    winston "3.1.0"
-
 graphql-codegen-core@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/graphql-codegen-core/-/graphql-codegen-core-0.15.0.tgz#2c18dd30478fa5eb23ba88edda69e72027a01d2b"

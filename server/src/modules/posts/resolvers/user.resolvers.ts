@@ -1,10 +1,9 @@
 import { PostsProvider } from "../providers/posts.provider";
-import { UserResolvers } from "@models";
+import { IResolvers } from "@models";
 import { PostsModule } from "../posts.module";
 
-export default ({ injector }: typeof PostsModule) => ({
+export default ({ injector }: typeof PostsModule): IResolvers => ({
     User: {
-        posts: ({ _id }) => injector.get(PostsProvider).getPostsOfUser(_id.toString()),
-    } as UserResolvers.Resolvers
+        posts: ({ _id }: any) => injector.get(PostsProvider).getPostsOfUser(_id.toString()),
+    }
 });
- 

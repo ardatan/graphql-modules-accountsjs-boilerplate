@@ -1,0 +1,10 @@
+query AllPosts {
+    allPosts{
+        id
+        title
+        content
+        author {
+            username
+        }
+    }
+}

@@ -6,7 +6,7 @@ import { AccountsPassword } from '@accounts/password';
 import AccountsMongoDB from '@accounts/mongo';
 import { AppModule } from '@modules/app/app.module';
 
-const PORT = process.env['MONGO_URI'] || 4000;
+const PORT = process.env['PORT'] || 4000;
 const MONGO_URI = process.env['MONGO_URI'] || 'mongodb://localhost:27017/myDb';
 const TOKEN_SECRET = process.env['TOKEN_SECRET'] || 'myTokenSecret';
 

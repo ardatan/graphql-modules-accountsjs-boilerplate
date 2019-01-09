@@ -39,7 +39,19 @@
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
 
-"@accounts/server@0.9.0", "@accounts/server@^0.9.0":
+"@accounts/server@0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.9.2.tgz#18acc299890d9e569c87ab22ad41f4686661b474"
+  integrity sha512-plXLbDWVrL8Sl+UrAMiADCYpxndYAlWFRt05C1T0CB3ybTV1RudpcfxTqmmY6qIGRn9JMG2zzyzg3xCEH+UN6Q==
+  dependencies:
+    "@accounts/types" "^0.9.2"
+    "@types/jsonwebtoken" "8.3.0"
+    emittery "0.4.1"
+    jsonwebtoken "8.4.0"
+    jwt-decode "2.2.0"
+    lodash "4.17.11"
+
+"@accounts/server@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.9.0.tgz#761212d202284ac310c982c5ed3075352332aa9c"
   integrity sha512-0gC/xyph23+NA/fYz99QYJJ4U6xflk3TZkinbVwwA9a8s84P94/YQRATHSlIfF0TU5oHoX1gyLHTFb3nDwopVw==
@@ -66,6 +78,11 @@
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.9.0.tgz#b29180a8ea63dac4dfef784cea4e0c070085b3e5"
   integrity sha512-2ZXCdy7BPoejZYe03juY6oRyKSDNpQGiNqIzMdtTcj2Pyyu3NT5m3LVMPha0MoZjIotaGzWKy08n9QlyHBK/CQ==
+
+"@accounts/types@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.9.2.tgz#ce0709604a767cb3d40b7c994df1b3930734445b"
+  integrity sha512-SiVMFyePDZuDOQhuCNcR/fPXx9Qe+rPMAjm8m/Yl0xLWBMwrFH9mRRLdmuMw6OdPLgP81gX9+1lZ/fj+zCXtTQ==
 
 "@apollographql/apollo-tools@^0.2.6":
   version "0.2.9"

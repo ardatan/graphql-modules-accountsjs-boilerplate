@@ -11,6 +11,14 @@
     "@accounts/types" "^0.9.0"
     crypto-js "^3.1.9-1"
 
+"@accounts/client@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.10.0.tgz#3de763b0f73c669a04951834c58bb4979a51f5c0"
+  integrity sha512-Py2ywzSLZRAvebAkIgMlMq28nG+XhB4DyBfIHVWhDhWsyivpLE2zDq6OGCGJSOEKpUbmEReNLK/ghabE49ntwA==
+  dependencies:
+    "@accounts/types" "^0.10.0"
+    jwt-decode "2.2.0"
+
 "@accounts/client@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.9.0.tgz#e6ff3d99292a983ab109d8a64f80966f63a9fc5a"
@@ -27,6 +35,11 @@
     "@accounts/client" "^0.9.0"
     "@accounts/types" "^0.9.0"
     graphql-tag "^2.10.0"
+
+"@accounts/types@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.10.0.tgz#a9294f00eb33eb1b0a40a7de5afe7d17c349fd38"
+  integrity sha512-Jm9/jQPsCpwvqW/Zyjz579DnjgVcHc+pRt5Z+hYH3P+5JPvWdB+/d5uvtGqa24Xvt/hb8bSyJF5ajTlkGKyVbw==
 
 "@accounts/types@^0.9.0":
   version "0.9.0"

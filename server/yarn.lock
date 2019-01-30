@@ -232,10 +232,10 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@graphql-modules/sonar@0.2.17":
-  version "0.2.17"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.2.17.tgz#169e741dec61684c9453dc46f836a372f9af228c"
-  integrity sha512-r34ct8cACtarluY1zEPyLBsrDHsEeYUMR1D+3zHA5oEMCovsViyBIoU7RkjxWBQviUcmYPA/RlclGdU+L6wsxw==
+"@graphql-modules/sonar@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/sonar/-/sonar-0.4.0.tgz#ca657b3cfc4639a5f205aeacd7b041bb0a530067"
+  integrity sha512-4Kb69/6fRzGpmmVf7P38g2O+PnlkqpNx2vZ1vhh89Lxv18SAfN8ABkvaRLyuBglAmtwSCEGinn7NNvGSfRcc3Q==
   dependencies:
     "@types/glob" "7.1.1"
     glob "7.1.3"

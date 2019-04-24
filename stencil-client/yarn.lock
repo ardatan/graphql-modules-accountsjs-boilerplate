@@ -153,6 +153,11 @@
     jsdom "11.11.0"
     typescript "3.2.2"
 
+"@stencil/state-tunnel@0.0.9-4":
+  version "0.0.9-4"
+  resolved "https://registry.yarnpkg.com/@stencil/state-tunnel/-/state-tunnel-0.0.9-4.tgz#1ac29e4e941aa0bc226b4ee95790ffccc6f27889"
+  integrity sha512-zLH11WkiKIqMCmIlGOgqzQiWCO2sn5cbYD4ZKoq+vz7EwgoMXvESw50nOY9OX9TAMVFX9zXkb1X1JfzIOhUfgw==
+
 "@types/async@2.0.50":
   version "2.0.50"
   resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.50.tgz#117540e026d64e1846093abbd5adc7e27fda7bcb"
@@ -2812,10 +2817,12 @@ stealthy-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-stencil-apollo@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/stencil-apollo/-/stencil-apollo-0.0.1.tgz#612fa241811575c623a92cf6a98264df306b35dd"
-  integrity sha512-2ZzvJ/ptA7/fhJ06BoJ073GjhVgaKivXOWoYpvboPCFnZ9dcvO4hX9XUfqiOXfn9Q1778bni9KUU45CNy9xm5w==
+stencil-apollo@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stencil-apollo/-/stencil-apollo-0.1.0.tgz#decdd024185df7ea30b672ba7d9f6af69b18c18e"
+  integrity sha512-G/xJkT66auWzSBCw87crXZODEzyTxRm99tjY8S5XhPSJRp2mYof4lN85rKfsbceLhyZ/SD3kA+NIQBXKhIXQ1g==
+  dependencies:
+    "@stencil/state-tunnel" "0.0.9-4"
 
 string-width@^1.0.1:
   version "1.0.2"

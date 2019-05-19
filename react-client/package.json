@@ -18,7 +18,7 @@
     "graphql": "^14.0.2",
     "graphql-code-generator": "0.15.0",
     "graphql-codegen-typescript-client": "0.15.0",
-    "graphql-codegen-typescript-mongodb": "0.15.0",
+    "graphql-codegen-typescript-mongodb": "0.18.2",
     "graphql-codegen-typescript-react-apollo": "0.15.2",
     "graphql-tag": "^2.10.0",
     "nodemon": "^1.18.6",

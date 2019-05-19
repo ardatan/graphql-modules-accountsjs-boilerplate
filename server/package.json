@@ -30,7 +30,7 @@
     "graphql-code-generator": "0.15.0",
     "graphql-codegen-add": "0.15.0",
     "graphql-codegen-typescript-common": "0.15.0",
-    "graphql-codegen-typescript-mongodb": "0.15.0",
+    "graphql-codegen-typescript-mongodb": "0.18.2",
     "graphql-codegen-typescript-resolvers": "0.15.2",
     "graphql-codegen-typescript-server": "0.15.0",
     "graphql-tag": "2.10.1",

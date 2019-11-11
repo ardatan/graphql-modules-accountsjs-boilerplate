@@ -27,7 +27,7 @@
     "@types/mongodb": "3.1.17",
     "apollo-server": "2.3.1",
     "graphql": "14.1.1",
-    "graphql-code-generator": "0.15.0",
+    "graphql-code-generator": "0.17.0",
     "graphql-codegen-add": "0.15.0",
     "graphql-codegen-typescript-common": "0.15.0",
     "graphql-codegen-typescript-mongodb": "0.15.0",

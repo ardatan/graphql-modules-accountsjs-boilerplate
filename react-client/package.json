@@ -14,7 +14,7 @@
     "@types/react-dom": "16.0.11",
     "@types/react-router-dom": "^4.3.1",
     "apollo-boost": "^0.1.20",
-    "concurrently": "4.1.0",
+    "concurrently": "5.3.0",
     "graphql": "^14.0.2",
     "graphql-code-generator": "0.15.0",
     "graphql-codegen-typescript-client": "0.15.0",

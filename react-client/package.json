@@ -21,7 +21,7 @@
     "graphql-codegen-typescript-mongodb": "0.15.0",
     "graphql-codegen-typescript-react-apollo": "0.15.2",
     "graphql-tag": "^2.10.0",
-    "nodemon": "^1.18.6",
+    "nodemon": "^2.0.0",
     "react": "^16.6.3",
     "react-apollo": "^2.2.4",
     "react-dom": "^16.6.3",

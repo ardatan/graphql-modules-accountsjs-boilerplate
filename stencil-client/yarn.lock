@@ -2,14 +2,23 @@
 # yarn lockfile v1
 
 
-"@accounts/client-password@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.9.0.tgz#1c5c62d439504ca7c871476d6d4471ee1ec169ae"
-  integrity sha512-UAJCQEj2C8McIQEAeys7uQMYzN6JAwMl0/1QXEomY8nZWuWYQwQ3oxsDj1oHhzwbbiPoEID6ckOeeRJG+v95/g==
+"@accounts/client-password@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.32.0.tgz#523e3ca4cf5580dd927317de2a8f288075bb4fcb"
+  integrity sha512-0hGq/ZLPUDQPr3JKHA0iXZzDFJc54SkmL6eU3OleAloCtc5Wsme630LiQ/u2UEAn5cuf/HTiFDJUdm1MCuQQaQ==
   dependencies:
-    "@accounts/client" "^0.9.0"
-    "@accounts/types" "^0.9.0"
-    crypto-js "^3.1.9-1"
+    "@accounts/client" "^0.32.0"
+    "@accounts/types" "^0.32.0"
+    tslib "2.1.0"
+
+"@accounts/client@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.32.0.tgz#18e9e80b14c1be3c2d32f9a99f18469693b7a918"
+  integrity sha512-0xe5SLCxxhtrHwF93U0hpCpK73ZGlcO/yGMT9fQ+QurwbbYmnABm49t80stdtWz9KAtx/+iuLhurRNPPf2Q0Yg==
+  dependencies:
+    "@accounts/types" "^0.32.0"
+    jwt-decode "3.1.2"
+    tslib "2.1.0"
 
 "@accounts/client@^0.9.0":
   version "0.9.0"
@@ -27,6 +36,13 @@
     "@accounts/client" "^0.9.0"
     "@accounts/types" "^0.9.0"
     graphql-tag "^2.10.0"
+
+"@accounts/types@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.32.0.tgz#7a9c6c6888db7d03b37b201d00ccf1e4cfab1fa0"
+  integrity sha512-MmZmPMNqMsy9y6q7qu5XgRwCrU0xZJ/p0/got3MZCSlCxc220mrklVJZQ/CIT+8VEHrttI6vNvC17L/iRs+XUA==
+  dependencies:
+    tslib "2.1.0"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -835,11 +851,6 @@ cross-fetch@2.2.2:
   dependencies:
     node-fetch "2.1.2"
     whatwg-fetch "2.0.4"
-
-crypto-js@^3.1.9-1:
-  version "3.1.9-1"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.1.9-1.tgz#fda19e761fc077e01ffbfdc6e9fdfc59e8806cd8"
-  integrity sha1-/aGedh/Ad+Af+/3G6f38WeiAbNg=
 
 cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   version "0.3.4"
@@ -1910,6 +1921,11 @@ jwt-decode@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
   integrity sha1-fYa9VmefWM5qhHBKZX3TkruoGnk=
+
+jwt-decode@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
+  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -3012,6 +3028,11 @@ tslib@1.9.3, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

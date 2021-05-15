@@ -34,7 +34,7 @@
     "apollo-link": "^1.2.0",
     "apollo-link-context": "^1.0.9",
     "core-js": "^2.5.4",
-    "graphql": "^14.0.2",
+    "graphql": "^15.0.0",
     "graphql-tag": "^2.10.0",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.3.3",

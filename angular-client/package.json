@@ -15,7 +15,7 @@
   "dependencies": {
     "@accounts/client": "^0.9.0",
     "@accounts/client-password": "^0.9.0",
-    "@accounts/graphql-client": "^0.9.0",
+    "@accounts/graphql-client": "^0.33.0",
     "@angular/animations": "~7.1.0",
     "@angular/cdk": "~7.1.0",
     "@angular/common": "~7.1.0",

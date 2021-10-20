@@ -27,7 +27,7 @@
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
-    "typescript": "3.2.4"
+    "typescript": "3.9.10"
   },
   "scripts": {
     "start": "concurrently \"yarn generate:watch\" \"react-scripts start\"",

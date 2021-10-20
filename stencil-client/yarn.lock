@@ -1439,12 +1439,10 @@ graphql-tools@4.0.3:
     iterall "^1.1.3"
     uuid "^3.1.0"
 
-graphql@^14.0.2:
-  version "14.0.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.0.2.tgz#7dded337a4c3fd2d075692323384034b357f5650"
-  integrity sha512-gUC4YYsaiSJT1h40krG3J+USGlwhzNTXSb4IOZljn9ag5Tj+RkoXrWp+Kh7WyE3t1NCfab5kzCuxBIvOMERMXw==
-  dependencies:
-    iterall "^1.2.2"
+graphql@^15.0.0:
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.6.1.tgz#9125bdf057553525da251e19e96dab3d3855ddfc"
+  integrity sha512-3i5lu0z6dRvJ48QP9kFxBkJ7h4Kso7PS8eahyTFz5Jm6CvQfLtNIE8LX9N6JLnXTuwR+sIYnXzaWp6anOg0QQw==
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -1813,7 +1811,7 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-iterall@^1.1.3, iterall@^1.2.2:
+iterall@^1.1.3:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
   integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==

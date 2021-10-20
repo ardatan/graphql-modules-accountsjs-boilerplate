@@ -11,6 +11,15 @@
     "@accounts/types" "^0.9.0"
     crypto-js "^3.1.9-1"
 
+"@accounts/client@^0.33.0":
+  version "0.33.1"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.33.1.tgz#aed05967136236aadaf85a036e93359bc8c37697"
+  integrity sha512-vUznAUkaPSclQAxKt3pjpw+iUrrt4bfx0pdo09YoS/elCeUMUHCLNnyaTPPXXyrzpUFrgLAmzZ1hkbkEJ+/jcA==
+  dependencies:
+    "@accounts/types" "^0.33.1"
+    jwt-decode "3.1.2"
+    tslib "2.3.0"
+
 "@accounts/client@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.9.0.tgz#e6ff3d99292a983ab109d8a64f80966f63a9fc5a"
@@ -27,6 +36,13 @@
     "@accounts/client" "^0.9.0"
     "@accounts/types" "^0.9.0"
     graphql-tag "^2.10.0"
+
+"@accounts/types@^0.33.1":
+  version "0.33.1"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.33.1.tgz#b517883d203497eceaeac9d29abcbba6af4b4d74"
+  integrity sha512-58gaKvDZHGpwmpRh9ihxLLZMuf4xwreW+RV1tE5hFU0gfCPHQTPM21z/dZZyOW5W1vGasArgnNjhkTgnlvblAQ==
+  dependencies:
+    tslib "2.3.0"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -1911,6 +1927,11 @@ jwt-decode@2.2.0:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
   integrity sha1-fYa9VmefWM5qhHBKZX3TkruoGnk=
 
+jwt-decode@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
+  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
+
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -3012,6 +3033,11 @@ tslib@1.9.3, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

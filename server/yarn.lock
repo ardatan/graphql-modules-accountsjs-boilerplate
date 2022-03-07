@@ -21,14 +21,42 @@
     graphql-tag "^2.10.0"
     request-ip "2.1.3"
 
-"@accounts/mongo@0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.9.0.tgz#0e72feb018a7dee51526d83ccad5f0cc23710cc0"
-  integrity sha512-zoERVlMRwm7y184mDOaO4ma1EqBgJ6UZb9r4zDnemDavdggqcMDSzHa9QpWKoFUTUckeZx537hNaspORTJhV3Q==
+"@accounts/mongo-magic-link@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo-magic-link/-/mongo-magic-link-0.1.1.tgz#1428662d9bb48e941caec1d55a2033cfa4ec164e"
+  integrity sha512-C3ppap0jDeuv+8Cmz+XOBmgN/zrzLG/DRauNmF4BTEdsQ76jjo33L8BRC4faKTAdAgmGfEOEOC0WP5syg860BQ==
   dependencies:
-    "@accounts/types" "^0.9.0"
-    lodash "^4.17.11"
-    mongodb "^3.1.10"
+    "@accounts/types" "^0.33.1"
+    tslib "2.3.0"
+
+"@accounts/mongo-password@^0.32.2":
+  version "0.32.3"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo-password/-/mongo-password-0.32.3.tgz#c966154b23857981cb8be45d18128e61c0da9f19"
+  integrity sha512-TJ1Qhqs2mGvP6Ikqv6FYGRxgwjetMrL5un9FGa6waVzsMSgV+/5sSqatJULg6WfHGBSV1uWC6TjTsXKjko6TLw==
+  dependencies:
+    "@accounts/types" "^0.33.2"
+    tslib "2.3.1"
+
+"@accounts/mongo-sessions@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo-sessions/-/mongo-sessions-0.33.0.tgz#18dcdea57860154fc585b7efbd124ef3620b8c74"
+  integrity sha512-ML7WcgL9qcyGpEtoXNFT25t4ZB85Pn3N7HvPiYdcf2VYRtYvFgezIID7YPn9SGCxNEt6xXPn++6jdGGc3mw5nQ==
+  dependencies:
+    "@accounts/types" "^0.33.1"
+    tslib "2.3.1"
+
+"@accounts/mongo@0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@accounts/mongo/-/mongo-0.34.0.tgz#08e6adbd5695fb9867e7d66f7d94defea79fd463"
+  integrity sha512-PNXUAj0N/doWmL63Udu+2fffxN+lo2CwwNpHMN4KgklOLg+rCDEN39cw9+jZ1hBrrWviKSCQGdV5NoXac52HhQ==
+  dependencies:
+    "@accounts/mongo-magic-link" "^0.1.1"
+    "@accounts/mongo-password" "^0.32.2"
+    "@accounts/mongo-sessions" "^0.33.0"
+    "@accounts/types" "^0.33.1"
+    "@types/mongodb" "^3.6.20"
+    mongodb "^3.4.1"
+    tslib "2.3.1"
 
 "@accounts/password@0.9.2":
   version "0.9.2"
@@ -93,6 +121,13 @@
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"
     speakeasy "^2.0.0"
+
+"@accounts/types@^0.33.1", "@accounts/types@^0.33.2":
+  version "0.33.2"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.33.2.tgz#dcf5adf1619242c1831729ec4ba7f8f4c7ceb5eb"
+  integrity sha512-VL/fNYHNef0Hjc7/FMQKKJW/jHCjmx3iu/uYAnbyspPRSRlJFFA0UdvTqOSaH/Qhu72JTfPcu6uLj0hgbV/vCQ==
+  dependencies:
+    tslib "2.3.1"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -432,6 +467,14 @@
   version "3.1.17"
   resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.1.17.tgz#11351b147b68e7674cff9055ea82072521bc6fe3"
   integrity sha512-u6tSIpfdsgK74aE0TuyqZYhHscw+gHs6dQNSsFUTFXubhhxCqovmV3nJRS0YKSw0sfqbzUgGzbG5+yorUPRnFg==
+  dependencies:
+    "@types/bson" "*"
+    "@types/node" "*"
+
+"@types/mongodb@^3.6.20":
+  version "3.6.20"
+  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.6.20.tgz#b7c5c580644f6364002b649af1c06c3c0454e1d2"
+  integrity sha512-WcdpPJCakFzcWWD9juKoZbRtQxKIMYF/JIAM4JrNHrMcnJL6/a2NWjXxW7fo9hxboxxkg+icff8d7+WIEvKgYQ==
   dependencies:
     "@types/bson" "*"
     "@types/node" "*"
@@ -874,6 +917,14 @@ binary-extensions@^1.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.12.0.tgz#c2d780f53d45bba8317a8902d4ceeaf3a6385b14"
   integrity sha512-DYWGk01lDcxeS/K9IHPGWfT8PsJmbXRtRd2Sx72Tnb8pcYZQFF1oSDb8hJtS1vhp212q1Rzi5dUf9+nq0o9UIg==
 
+bl@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==
+  dependencies:
+    readable-stream "^2.3.5"
+    safe-buffer "^5.1.1"
+
 body-parser@1.18.3, body-parser@^1.18.3:
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.3.tgz#5b292198ffdd553b3a0f20ded0592b956955c8b4"
@@ -931,6 +982,11 @@ bson@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.0.tgz#bee57d1fb6a87713471af4e32bcae36de814b5b0"
   integrity sha512-9Aeai9TacfNtWXOYarkFJRW2CWo+dRon+fuLZYJmvLV3+MiUp0bEI6IAZfXEIg7/Pl/7IWlLaDnhzTsD81etQA==
+
+bson@^1.1.4:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.6.tgz#fb819be9a60cd677e0853aee4ca712a785d6618a"
+  integrity sha512-EvVNVeGo4tHxwi8L6bPj3y3itEvStdwvvlojVxxbyYfoaxJ6keLgrTuKdyfEAszFK+H3olzBuafE0yoh0D1gdg==
 
 buffer-equal-constant-time@1.0.1:
   version "1.0.1"
@@ -1431,6 +1487,11 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+
+denque@^1.4.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/denque/-/denque-1.5.1.tgz#07f670e29c9a78f8faecb2566a1e2c11929c5cbf"
+  integrity sha512-XwE+iZ4D6ZUB7mfYRMb5wByE8L74HCn30FBN7sWnXksWc1LO1bPDl67pBR9o/kC4z/xSNAwkMYcGgqDV3BE3Hw==
 
 depd@~1.1.2:
   version "1.1.2"
@@ -3204,13 +3265,26 @@ mongodb-core@3.1.9:
   optionalDependencies:
     saslprep "^1.0.0"
 
-mongodb@3.1.10, mongodb@^3.1.10:
+mongodb@3.1.10:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.1.10.tgz#45ad9b74ea376f4122d0881b75e5489b9e504ed7"
   integrity sha512-Uml42GeFxhTGQVml1XQ4cD0o/rp7J2ROy0fdYUcVitoE7vFqEhKH4TYVqRDpQr/bXtCJVxJdNQC1ntRxNREkPQ==
   dependencies:
     mongodb-core "3.1.9"
     safe-buffer "^5.1.2"
+
+mongodb@^3.4.1:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.7.3.tgz#b7949cfd0adc4cc7d32d3f2034214d4475f175a5"
+  integrity sha512-Psm+g3/wHXhjBEktkxXsFMZvd3nemI0r3IPsE0bU+4//PnvNWKkzhZcEsbPcYiWqe8XqXJJEg4Tgtr7Raw67Yw==
+  dependencies:
+    bl "^2.2.1"
+    bson "^1.1.4"
+    denque "^1.4.1"
+    optional-require "^1.1.8"
+    safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
 
 ms@2.0.0:
   version "2.0.0"
@@ -3460,6 +3534,13 @@ onetime@^2.0.0:
   integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
   dependencies:
     mimic-fn "^1.0.0"
+
+optional-require@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/optional-require/-/optional-require-1.1.8.tgz#16364d76261b75d964c482b2406cb824d8ec44b7"
+  integrity sha512-jq83qaUb0wNg9Krv1c5OQ+58EK+vHde6aBPzLvPPqJm89UQWsvSuFy9X/OSNJnFeSOKo7btE0n8Nl2+nE+z5nA==
+  dependencies:
+    require-at "^1.0.6"
 
 os-homedir@^1.0.0:
   version "1.0.2"
@@ -3759,6 +3840,19 @@ readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.3.6:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
+readable-stream@^2.3.5:
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  integrity sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
+    util-deprecate "~1.0.1"
+
 readdirp@^2.0.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
@@ -3854,6 +3948,11 @@ request@2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
+require-at@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/require-at/-/require-at-1.0.6.tgz#9eb7e3c5e00727f5a4744070a7f560d4de4f6e6a"
+  integrity sha512-7i1auJbMUrXEAZCOQ0VNJgmcT2VOKPRl2YGJwgpHpC9CE91Mv4/4UYIUm4chGJaI381ZDq1JUicFii64Hapd8g==
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -3935,6 +4034,11 @@ safe-buffer@5.1.2, safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, s
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+
+safe-buffer@^5.1.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
@@ -4496,6 +4600,16 @@ tslib@1.9.3, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
+tslib@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

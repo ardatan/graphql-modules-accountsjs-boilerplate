@@ -30,14 +30,14 @@
     lodash "^4.17.11"
     mongodb "^3.1.10"
 
-"@accounts/password@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.9.2.tgz#59799af4523957b222699318002333ca18be7f95"
-  integrity sha512-YbALL9B+gDNY7mt60LuRegdN366LcNuejZojcV+798LNHmcVrOMqSbBiOzreoji1pyHm5pRPCUlxWyLK7LIgGw==
+"@accounts/password@0.32.2":
+  version "0.32.2"
+  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.32.2.tgz#7f78cae887bb121585e93e18d63a002358d03099"
+  integrity sha512-Qazyzt5s+pmxg//mKa1FrBnwqY6oAFYWBnzq7SvtZxo73yshdQqKzQCNJuP/bS4RkFIMLxZ2kycMG2R85ALGmA==
   dependencies:
-    "@accounts/two-factor" "^0.9.2"
+    "@accounts/two-factor" "^0.32.4"
     bcryptjs "^2.4.3"
-    lodash "^4.17.11"
+    tslib "2.3.1"
 
 "@accounts/password@^0.9.0":
   version "0.9.0"
@@ -72,6 +72,15 @@
     jwt-decode "2.2.0"
     lodash "4.17.11"
 
+"@accounts/two-factor@^0.32.4":
+  version "0.32.4"
+  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.32.4.tgz#0248448db94fddbf94d28580e04ae4f554cdbce8"
+  integrity sha512-xqElX8wC+fYSsQY6Kflk/Mr7WlV6Ji9PfGMMPBuLzkbHj2gk46BW42E1j9z1QaJZEeUrzn81dptbXzmguEzhtg==
+  dependencies:
+    "@accounts/types" "^0.33.2"
+    "@levminer/speakeasy" "1.3.3"
+    tslib "2.3.1"
+
 "@accounts/two-factor@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.0.tgz#de874dd3546b40b4d5ca71be946a7683de7f56ec"
@@ -83,16 +92,12 @@
     lodash "^4.17.11"
     speakeasy "^2.0.0"
 
-"@accounts/two-factor@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.2.tgz#b441e30583ef52017b198ab6fe93d98ac6936195"
-  integrity sha512-AbtAoVtGsgK4HqooJrxvjZvy3LZNsZqRtSVASq+caK/po5BGbAyDmMmiOSk0R0vBQMILlTu2SgnH+OG5Q+0qfg==
+"@accounts/types@^0.33.2":
+  version "0.33.2"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.33.2.tgz#dcf5adf1619242c1831729ec4ba7f8f4c7ceb5eb"
+  integrity sha512-VL/fNYHNef0Hjc7/FMQKKJW/jHCjmx3iu/uYAnbyspPRSRlJFFA0UdvTqOSaH/Qhu72JTfPcu6uLj0hgbV/vCQ==
   dependencies:
-    "@accounts/types" "^0.9.2"
-    "@types/lodash" "^4.14.119"
-    "@types/speakeasy" "2.0.2"
-    lodash "^4.17.11"
-    speakeasy "^2.0.0"
+    tslib "2.3.1"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -240,6 +245,13 @@
     "@types/glob" "7.1.1"
     glob "7.1.3"
     tslib "1.9.3"
+
+"@levminer/speakeasy@1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@levminer/speakeasy/-/speakeasy-1.3.3.tgz#6d45d422dd5bd093fa0cf11a21ca374bf3cdf41a"
+  integrity sha512-KIdL7xDfW200tJo056Ssjulv+sB7MJprGhMQXXTB+zdMP8OKsHxQCeOcp6sVHocYXeOT5VM6eEyEkCONlP6XVQ==
+  dependencies:
+    base32.js "0.1.0"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
@@ -407,11 +419,6 @@
   version "4.14.119"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.119.tgz#be847e5f4bc3e35e46d041c394ead8b603ad8b39"
   integrity sha512-Z3TNyBL8Vd/M9D9Ms2S3LmFq2sSMzahodD6rCS9V2N44HUMINb75jNkSuwAx7eo2ufqTdfOdtGQpNbieUjPQmw==
-
-"@types/lodash@^4.14.119":
-  version "4.14.120"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.120.tgz#cf265d06f6c7a710db087ed07523ab8c1a24047b"
-  integrity sha512-jQ21kQ120mo+IrDs1nFNVm/AsdFxIx2+vZ347DbogHJPd/JzKNMOqU6HCYin1W6v8l5R9XSO2/e9cxmn7HAnVw==
 
 "@types/long@^4.0.0":
   version "4.0.0"
@@ -843,6 +850,11 @@ base32.js@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/base32.js/-/base32.js-0.0.1.tgz#d045736a57b1f6c139f0c7df42518a84e91bb2ba"
   integrity sha1-0EVzalex9sE58MffQlGKhOkbsro=
+
+base32.js@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base32.js/-/base32.js-0.1.0.tgz#b582dec693c2f11e893cf064ee6ac5b6131a2202"
+  integrity sha512-n3TkB02ixgBOhTvANakDb4xaMXnYUVkNoRFJjQflcqMQhyEKxEHdj3E6N8t8sUQ0mjH/3/JxzlXuz3ul/J90pQ==
 
 base@^0.11.1:
   version "0.11.2"
@@ -4496,6 +4508,11 @@ tslib@1.9.3, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

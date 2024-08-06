@@ -17,7 +17,7 @@
     "@accounts/client": "^0.9.0",
     "@accounts/client-password": "^0.9.0",
     "@accounts/graphql-client": "^0.9.0",
-    "@ionic/core": "4.0.0-rc.2",
+    "@ionic/core": "4.0.3",
     "apollo-boost": "^0.1.23",
     "graphql": "^14.0.2",
     "stencil-apollo": "^0.0.1"
